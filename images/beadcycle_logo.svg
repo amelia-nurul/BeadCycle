@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="400" fill="white"/>
+  
+  <path d="M 180 100 L 180 140 Q 180 160 200 160 Q 220 160 220 140 L 220 100 Q 220 90 210 90 L 190 90 Q 180 90 180 100 Z" fill="url(#grad)"/>
+  
+  <ellipse cx="200" cy="95" rx="18" ry="8" fill="url(#grad)"/>
+  <rect x="188" y="85" width="24" height="12" fill="url(#grad)"/>
+  
+  <path d="M 165 180 
+           C 165 180, 155 190, 160 205
+           C 165 220, 175 218, 175 205
+           C 175 192, 165 192, 165 180 Z" 
+        fill="none" stroke="#27ae60" stroke-width="8" stroke-linecap="round"/>
+  
+  <path d="M 180 195 L 195 210" stroke="#27ae60" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 165 215 L 155 205" stroke="#27ae60" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 172 180 L 172 168" stroke="#27ae60" stroke-width="6" stroke-linecap="round"/>
+  
+  <circle cx="210" cy="190" r="12" fill="#3498db"/>
+  <circle cx="235" cy="190" r="12" fill="#e74c3c"/>
+  <circle cx="223" cy="210" r="12" fill="#f39c12"/>
+  
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#27ae60" text-anchor="middle">BeadCycle</text>
+  <text x="200" y="305" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d" text-anchor="middle">eco-friendly accessories</text>
+</svg>
